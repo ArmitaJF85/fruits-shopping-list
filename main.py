@@ -22,7 +22,7 @@ def main():
             name, price = line.split()
             fruits[name] = int(price)
 
-            analyze_fruits(**fruits)
+        analyze_fruits(**fruits)
 
 if __name__ == "__main__":
     main()
