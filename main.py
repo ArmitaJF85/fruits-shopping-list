@@ -1,4 +1,4 @@
-
+#https://github.com/ArmitaJF85/fruits-shopping-list.git
 def analyze_fruits(**fruits):
     count = len(fruits)
     total = sum(fruits.values())
